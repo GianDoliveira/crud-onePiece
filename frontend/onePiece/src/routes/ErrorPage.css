@@ -1,5 +1,5 @@
 /* styles.css */
-.background {
+.backgroundError {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -8,12 +8,12 @@
     width: 100%;
     
 }
-.background::before {
+.backgroundError::before {
     position: absolute;
     content: "";
     inset: 0;
     opacity: 0.5;
-    background-image: url('https://media.tenor.com/XPr3w_BtzTIAAAAd/one-piece-straw-hats.gif');
+    background-image: url('https://media.tenor.com/CFAwMDCOzvUAAAAd/one-piece-anime.gif');
     background-size: cover;
     background-position: center;
     z-index: -1

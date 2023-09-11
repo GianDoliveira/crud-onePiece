@@ -23,7 +23,13 @@ function App() {
 
   return (
     <div>
-      <Home/>
+      <Home 
+      saudacao="Bem vindo!" 
+      message="Que tal criar sua tripulação ?" 
+      botao="Criar"
+      link="http://localhost:3000/members"
+      image="https://media.tenor.com/XPr3w_BtzTIAAAAd/one-piece-straw-hats.gif"
+      />
     </div>
   )
 }
