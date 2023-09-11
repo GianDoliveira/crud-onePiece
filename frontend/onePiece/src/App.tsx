@@ -1,5 +1,6 @@
+import Home from './pages/Home';
+
 import { useEffect, useState } from 'react'
-import './App.css'
 import axios from 'axios';
 
 const api = axios.create({
@@ -22,7 +23,7 @@ function App() {
 
   return (
     <div>
-      
+      <Home/>
     </div>
   )
 }
